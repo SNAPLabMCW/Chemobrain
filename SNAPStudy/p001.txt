@@ -1,0 +1,30 @@
+<experiment>
+    <participant id="001"/>
+    <run number="1" type="ANT">
+        <breaks>
+            <break after_trial="3" duration="2"/>
+            <break after_trial="5" duration="2"/>
+        </breaks>
+        <trials>
+            <trial number="1" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="2" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="3" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="4" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="5" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="6" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+        </trials>
+    </run>
+    <run number="2" type="ANT" forceFirstOneOfTheDay="YES">
+        <breaks>
+            <break after_trial="3" duration="2"/>
+        </breaks>
+        <trials>
+            <trial number="1" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="2" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="3" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="4" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="5" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+            <trial number="6" initialFixationDuration="1100" cue="CueConditionCenter" stimulus="StimulusCongruentLeft" target="TargetLocationUp"/>
+        </trials>
+    </run>
+</experiment>

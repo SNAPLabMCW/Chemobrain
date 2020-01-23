@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E16CF7719BD63D800C152A7 /* ExperimentXMLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16CF7619BD63D800C152A7 /* ExperimentXMLLoader.m */; };
+		5E16CF7A19BD661100C152A7 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E16CF7919BD661100C152A7 /* XMLDictionary.m */; };
+		5E1C74C719CFEDC5003E5157 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74C619CFEDC5003E5157 /* CFNetwork.framework */; };
+		5E1C74C919CFEDCB003E5157 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74C819CFEDCB003E5157 /* Security.framework */; };
+		5E1C74CB19CFEDDA003E5157 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74CA19CFEDDA003E5157 /* SystemConfiguration.framework */; };
+		5E1C74CD19CFEDE8003E5157 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74CC19CFEDE8003E5157 /* QuartzCore.framework */; };
+		5E1C74CF19CFEDF2003E5157 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74CE19CFEDF2003E5157 /* libstdc++.dylib */; };
+		5E1C74D119CFEDF9003E5157 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1C74D019CFEDF9003E5157 /* libz.dylib */; };
+		5E1C74D419CFF0DB003E5157 /* DropboxHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C74D319CFF0DB003E5157 /* DropboxHandling.m */; };
+		5E263C50198F3CDF00C20937 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E263C4F198F3CDF00C20937 /* NSTimer+Blocks.m */; };
+		5E2A5DDD198DF481002667FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DDC198DF481002667FA /* Foundation.framework */; };
+		5E2A5DDF198DF481002667FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DDE198DF481002667FA /* CoreGraphics.framework */; };
+		5E2A5DE1198DF481002667FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DE0198DF481002667FA /* UIKit.framework */; };
+		5E2A5DE7198DF481002667FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A5DE5198DF481002667FA /* InfoPlist.strings */; };
+		5E2A5DE9198DF481002667FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5DE8198DF481002667FA /* main.m */; };
+		5E2A5DED198DF481002667FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5DEC198DF481002667FA /* AppDelegate.m */; };
+		5E2A5DF0198DF481002667FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A5DEE198DF481002667FA /* Main.storyboard */; };
+		5E2A5DF3198DF481002667FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5DF2198DF481002667FA /* ViewController.m */; };
+		5E2A5DF5198DF481002667FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A5DF4198DF481002667FA /* Images.xcassets */; };
+		5E2A5DFC198DF481002667FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DFB198DF481002667FA /* XCTest.framework */; };
+		5E2A5DFD198DF481002667FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DDC198DF481002667FA /* Foundation.framework */; };
+		5E2A5DFE198DF481002667FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2A5DE0198DF481002667FA /* UIKit.framework */; };
+		5E2A5E06198DF481002667FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A5E04198DF481002667FA /* InfoPlist.strings */; };
+		5E2A5E08198DF481002667FA /* SNAPStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5E07198DF481002667FA /* SNAPStudyTests.m */; };
+		5E2A5E13198EA663002667FA /* ExperimentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5E12198EA663002667FA /* ExperimentViewController.m */; };
+		5E2A5E16198EA6A5002667FA /* ExperimentTrial.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5E15198EA6A5002667FA /* ExperimentTrial.m */; };
+		5E3BE93C1BBB868100F6A71E /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3BE93B1BBB868100F6A71E /* DropboxSDK.framework */; };
+		5E6BCEB51A3E9F9B00365C51 /* EverythingUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BCEB41A3E9F9B00365C51 /* EverythingUploader.m */; };
+		5E7F7B4419AA4D300087919A /* CalibrationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F7B4319AA4D300087919A /* CalibrationScreen.m */; };
+		5E7F7B4619AA6AAC0087919A /* snap_logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7F7B4519AA6AAC0087919A /* snap_logo_big.png */; };
+		5E8A664519A2F7DA0031C008 /* EachTimeQuestionnaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A664419A2F7DA0031C008 /* EachTimeQuestionnaireViewController.m */; };
+		5EF48D2319AA487700A6C022 /* CalibrationScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF48D2219AA487700A6C022 /* CalibrationScreenViewController.m */; };
+		5EFCC1101992BB920053EE08 /* SavedLogsLister.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCC10F1992BB920053EE08 /* SavedLogsLister.m */; };
+		5EFCC1131992C83C0053EE08 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCC1121992C83C0053EE08 /* ConfigurationViewController.m */; };
+		80CF801223BA8910007C6A83 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF801123BA8910007C6A83 /* CloudKit.framework */; };
+		80CF801623BAA8D8007C6A83 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF801523BAA8D8007C6A83 /* MyDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E2A5DFF198DF481002667FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A5DD1198DF481002667FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2A5DD8198DF481002667FA;
+			remoteInfo = SNAPStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E16CF7519BD63D800C152A7 /* ExperimentXMLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperimentXMLLoader.h; sourceTree = "<group>"; };
+		5E16CF7619BD63D800C152A7 /* ExperimentXMLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperimentXMLLoader.m; sourceTree = "<group>"; };
+		5E16CF7819BD661100C152A7 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		5E16CF7919BD661100C152A7 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		5E1C74C619CFEDC5003E5157 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5E1C74C819CFEDCB003E5157 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5E1C74CA19CFEDDA003E5157 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E1C74CC19CFEDE8003E5157 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E1C74CE19CFEDF2003E5157 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		5E1C74D019CFEDF9003E5157 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5E1C74D219CFF0DB003E5157 /* DropboxHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxHandling.h; sourceTree = "<group>"; };
+		5E1C74D319CFF0DB003E5157 /* DropboxHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxHandling.m; sourceTree = "<group>"; };
+		5E263C4E198F3CDF00C20937 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		5E263C4F198F3CDF00C20937 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		5E2A5DD9198DF481002667FA /* SNAPStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNAPStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2A5DDC198DF481002667FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E2A5DDE198DF481002667FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E2A5DE0198DF481002667FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E2A5DE4198DF481002667FA /* SNAPStudy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNAPStudy-Info.plist"; sourceTree = "<group>"; };
+		5E2A5DE6198DF481002667FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E2A5DE8198DF481002667FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E2A5DEA198DF481002667FA /* SNAPStudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNAPStudy-Prefix.pch"; sourceTree = "<group>"; };
+		5E2A5DEB198DF481002667FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E2A5DEC198DF481002667FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E2A5DEF198DF481002667FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E2A5DF1198DF481002667FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E2A5DF2198DF481002667FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E2A5DF4198DF481002667FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E2A5DFA198DF481002667FA /* SNAPStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNAPStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2A5DFB198DF481002667FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E2A5E03198DF481002667FA /* SNAPStudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNAPStudyTests-Info.plist"; sourceTree = "<group>"; };
+		5E2A5E05198DF481002667FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E2A5E07198DF481002667FA /* SNAPStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPStudyTests.m; sourceTree = "<group>"; };
+		5E2A5E11198EA663002667FA /* ExperimentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperimentViewController.h; sourceTree = "<group>"; };
+		5E2A5E12198EA663002667FA /* ExperimentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperimentViewController.m; sourceTree = "<group>"; };
+		5E2A5E14198EA6A5002667FA /* ExperimentTrial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperimentTrial.h; sourceTree = "<group>"; };
+		5E2A5E15198EA6A5002667FA /* ExperimentTrial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperimentTrial.m; sourceTree = "<group>"; };
+		5E3BE93B1BBB868100F6A71E /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		5E6BCEB31A3E9F9B00365C51 /* EverythingUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EverythingUploader.h; sourceTree = "<group>"; };
+		5E6BCEB41A3E9F9B00365C51 /* EverythingUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EverythingUploader.m; sourceTree = "<group>"; };
+		5E7F7B4219AA4D300087919A /* CalibrationScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationScreen.h; sourceTree = "<group>"; };
+		5E7F7B4319AA4D300087919A /* CalibrationScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationScreen.m; sourceTree = "<group>"; };
+		5E7F7B4519AA6AAC0087919A /* snap_logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snap_logo_big.png; sourceTree = "<group>"; };
+		5E8A664319A2F7DA0031C008 /* EachTimeQuestionnaireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EachTimeQuestionnaireViewController.h; sourceTree = "<group>"; };
+		5E8A664419A2F7DA0031C008 /* EachTimeQuestionnaireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EachTimeQuestionnaireViewController.m; sourceTree = "<group>"; };
+		5EF48D2119AA487700A6C022 /* CalibrationScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationScreenViewController.h; sourceTree = "<group>"; };
+		5EF48D2219AA487700A6C022 /* CalibrationScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationScreenViewController.m; sourceTree = "<group>"; };
+		5EFCC10E1992BB920053EE08 /* SavedLogsLister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedLogsLister.h; sourceTree = "<group>"; };
+		5EFCC10F1992BB920053EE08 /* SavedLogsLister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedLogsLister.m; sourceTree = "<group>"; };
+		5EFCC1111992C83C0053EE08 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		5EFCC1121992C83C0053EE08 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
+		80CF801023BA8908007C6A83 /* SNAPStudy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SNAPStudy.entitlements; sourceTree = "<group>"; };
+		80CF801123BA8910007C6A83 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		80CF801523BAA8D8007C6A83 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		80CF801723BAAAA0007C6A83 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2A5DD6198DF481002667FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1C74D119CFEDF9003E5157 /* libz.dylib in Frameworks */,
+				5E1C74CF19CFEDF2003E5157 /* libstdc++.dylib in Frameworks */,
+				5E1C74CD19CFEDE8003E5157 /* QuartzCore.framework in Frameworks */,
+				5E1C74CB19CFEDDA003E5157 /* SystemConfiguration.framework in Frameworks */,
+				5E1C74C919CFEDCB003E5157 /* Security.framework in Frameworks */,
+				5E1C74C719CFEDC5003E5157 /* CFNetwork.framework in Frameworks */,
+				5E2A5DDF198DF481002667FA /* CoreGraphics.framework in Frameworks */,
+				80CF801223BA8910007C6A83 /* CloudKit.framework in Frameworks */,
+				5E2A5DE1198DF481002667FA /* UIKit.framework in Frameworks */,
+				5E3BE93C1BBB868100F6A71E /* DropboxSDK.framework in Frameworks */,
+				5E2A5DDD198DF481002667FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2A5DF7198DF481002667FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2A5DFC198DF481002667FA /* XCTest.framework in Frameworks */,
+				5E2A5DFE198DF481002667FA /* UIKit.framework in Frameworks */,
+				5E2A5DFD198DF481002667FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1C74BF19CFDD59003E5157 /* Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				5E8A664319A2F7DA0031C008 /* EachTimeQuestionnaireViewController.h */,
+				5E8A664419A2F7DA0031C008 /* EachTimeQuestionnaireViewController.m */,
+			);
+			name = Questionnaire;
+			sourceTree = "<group>";
+		};
+		5E1C74C019CFDD5D003E5157 /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				5EF48D2119AA487700A6C022 /* CalibrationScreenViewController.h */,
+				5EF48D2219AA487700A6C022 /* CalibrationScreenViewController.m */,
+				5E7F7B4219AA4D300087919A /* CalibrationScreen.h */,
+				5E7F7B4319AA4D300087919A /* CalibrationScreen.m */,
+			);
+			name = Calibration;
+			sourceTree = "<group>";
+		};
+		5E1C74C119CFDD5F003E5157 /* Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5E11198EA663002667FA /* ExperimentViewController.h */,
+				5E2A5E12198EA663002667FA /* ExperimentViewController.m */,
+			);
+			name = Experiment;
+			sourceTree = "<group>";
+		};
+		5E1C74C219CFDD72003E5157 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C74D219CFF0DB003E5157 /* DropboxHandling.h */,
+				5E1C74D319CFF0DB003E5157 /* DropboxHandling.m */,
+				5E263C4E198F3CDF00C20937 /* NSTimer+Blocks.h */,
+				5E263C4F198F3CDF00C20937 /* NSTimer+Blocks.m */,
+				5E6BCEB31A3E9F9B00365C51 /* EverythingUploader.h */,
+				5E6BCEB41A3E9F9B00365C51 /* EverythingUploader.m */,
+				80CF801523BAA8D8007C6A83 /* MyDocument.m */,
+				80CF801723BAAAA0007C6A83 /* MyDocument.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		5E1C74C319CFDD8B003E5157 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5EFCC10E1992BB920053EE08 /* SavedLogsLister.h */,
+				5EFCC10F1992BB920053EE08 /* SavedLogsLister.m */,
+				5EFCC1111992C83C0053EE08 /* ConfigurationViewController.h */,
+				5EFCC1121992C83C0053EE08 /* ConfigurationViewController.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		5E2A5DD0198DF481002667FA = {
+			isa = PBXGroup;
+			children = (
+				5E2A5DE2198DF481002667FA /* SNAPStudy */,
+				5E2A5E01198DF481002667FA /* SNAPStudyTests */,
+				5E2A5DDB198DF481002667FA /* Frameworks */,
+				5E2A5DDA198DF481002667FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2A5DDA198DF481002667FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5DD9198DF481002667FA /* SNAPStudy.app */,
+				5E2A5DFA198DF481002667FA /* SNAPStudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2A5DDB198DF481002667FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80CF801123BA8910007C6A83 /* CloudKit.framework */,
+				5E1C74D019CFEDF9003E5157 /* libz.dylib */,
+				5E1C74CE19CFEDF2003E5157 /* libstdc++.dylib */,
+				5E3BE93B1BBB868100F6A71E /* DropboxSDK.framework */,
+				5E1C74CC19CFEDE8003E5157 /* QuartzCore.framework */,
+				5E1C74CA19CFEDDA003E5157 /* SystemConfiguration.framework */,
+				5E1C74C819CFEDCB003E5157 /* Security.framework */,
+				5E1C74C619CFEDC5003E5157 /* CFNetwork.framework */,
+				5E2A5DDC198DF481002667FA /* Foundation.framework */,
+				5E2A5DDE198DF481002667FA /* CoreGraphics.framework */,
+				5E2A5DE0198DF481002667FA /* UIKit.framework */,
+				5E2A5DFB198DF481002667FA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2A5DE2198DF481002667FA /* SNAPStudy */ = {
+			isa = PBXGroup;
+			children = (
+				80CF801023BA8908007C6A83 /* SNAPStudy.entitlements */,
+				5E2A5DEB198DF481002667FA /* AppDelegate.h */,
+				5E2A5DEC198DF481002667FA /* AppDelegate.m */,
+				5E1C74C119CFDD5F003E5157 /* Experiment */,
+				5E1C74C319CFDD8B003E5157 /* Configuration */,
+				5E1C74C219CFDD72003E5157 /* Utilities */,
+				5E1C74BF19CFDD59003E5157 /* Questionnaire */,
+				5E1C74C019CFDD5D003E5157 /* Calibration */,
+				5E2A5E18198EA6C9002667FA /* Experiment Logic */,
+				5E2A5E17198EA6BB002667FA /* App Display Logic */,
+				5E7F7B4519AA6AAC0087919A /* snap_logo_big.png */,
+				5E2A5DF4198DF481002667FA /* Images.xcassets */,
+				5E2A5DE3198DF481002667FA /* Supporting Files */,
+			);
+			path = SNAPStudy;
+			sourceTree = "<group>";
+		};
+		5E2A5DE3198DF481002667FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5DE4198DF481002667FA /* SNAPStudy-Info.plist */,
+				5E2A5DE5198DF481002667FA /* InfoPlist.strings */,
+				5E2A5DE8198DF481002667FA /* main.m */,
+				5E2A5DEA198DF481002667FA /* SNAPStudy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E2A5E01198DF481002667FA /* SNAPStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5E07198DF481002667FA /* SNAPStudyTests.m */,
+				5E2A5E02198DF481002667FA /* Supporting Files */,
+			);
+			path = SNAPStudyTests;
+			sourceTree = "<group>";
+		};
+		5E2A5E02198DF481002667FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5E03198DF481002667FA /* SNAPStudyTests-Info.plist */,
+				5E2A5E04198DF481002667FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E2A5E17198EA6BB002667FA /* App Display Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5DEE198DF481002667FA /* Main.storyboard */,
+				5E2A5DF1198DF481002667FA /* ViewController.h */,
+				5E2A5DF2198DF481002667FA /* ViewController.m */,
+			);
+			name = "App Display Logic";
+			sourceTree = "<group>";
+		};
+		5E2A5E18198EA6C9002667FA /* Experiment Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A5E14198EA6A5002667FA /* ExperimentTrial.h */,
+				5E2A5E15198EA6A5002667FA /* ExperimentTrial.m */,
+				5E16CF7519BD63D800C152A7 /* ExperimentXMLLoader.h */,
+				5E16CF7619BD63D800C152A7 /* ExperimentXMLLoader.m */,
+				5E16CF7819BD661100C152A7 /* XMLDictionary.h */,
+				5E16CF7919BD661100C152A7 /* XMLDictionary.m */,
+			);
+			name = "Experiment Logic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2A5DD8198DF481002667FA /* SNAPStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2A5E0B198DF481002667FA /* Build configuration list for PBXNativeTarget "SNAPStudy" */;
+			buildPhases = (
+				5E2A5DD5198DF481002667FA /* Sources */,
+				5E2A5DD6198DF481002667FA /* Frameworks */,
+				5E2A5DD7198DF481002667FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNAPStudy;
+			productName = SNAPStudy;
+			productReference = 5E2A5DD9198DF481002667FA /* SNAPStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E2A5DF9198DF481002667FA /* SNAPStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2A5E0E198DF481002667FA /* Build configuration list for PBXNativeTarget "SNAPStudyTests" */;
+			buildPhases = (
+				5E2A5DF6198DF481002667FA /* Sources */,
+				5E2A5DF7198DF481002667FA /* Frameworks */,
+				5E2A5DF8198DF481002667FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2A5E00198DF481002667FA /* PBXTargetDependency */,
+			);
+			name = SNAPStudyTests;
+			productName = SNAPStudyTests;
+			productReference = 5E2A5DFA198DF481002667FA /* SNAPStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2A5DD1198DF481002667FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = faucetEndeavors;
+				TargetAttributes = {
+					5E2A5DD8198DF481002667FA = {
+						DevelopmentTeam = P8HGHZL2K7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					5E2A5DF9198DF481002667FA = {
+						TestTargetID = 5E2A5DD8198DF481002667FA;
+					};
+				};
+			};
+			buildConfigurationList = 5E2A5DD4198DF481002667FA /* Build configuration list for PBXProject "SNAPStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 5E2A5DD0198DF481002667FA;
+			productRefGroup = 5E2A5DDA198DF481002667FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2A5DD8198DF481002667FA /* SNAPStudy */,
+				5E2A5DF9198DF481002667FA /* SNAPStudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2A5DD7198DF481002667FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2A5DF5198DF481002667FA /* Images.xcassets in Resources */,
+				5E2A5DE7198DF481002667FA /* InfoPlist.strings in Resources */,
+				5E2A5DF0198DF481002667FA /* Main.storyboard in Resources */,
+				5E7F7B4619AA6AAC0087919A /* snap_logo_big.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2A5DF8198DF481002667FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2A5E06198DF481002667FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2A5DD5198DF481002667FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6BCEB51A3E9F9B00365C51 /* EverythingUploader.m in Sources */,
+				5E16CF7A19BD661100C152A7 /* XMLDictionary.m in Sources */,
+				5E8A664519A2F7DA0031C008 /* EachTimeQuestionnaireViewController.m in Sources */,
+				5E7F7B4419AA4D300087919A /* CalibrationScreen.m in Sources */,
+				5EF48D2319AA487700A6C022 /* CalibrationScreenViewController.m in Sources */,
+				5E263C50198F3CDF00C20937 /* NSTimer+Blocks.m in Sources */,
+				5E2A5E16198EA6A5002667FA /* ExperimentTrial.m in Sources */,
+				5E16CF7719BD63D800C152A7 /* ExperimentXMLLoader.m in Sources */,
+				5E2A5DF3198DF481002667FA /* ViewController.m in Sources */,
+				5E2A5E13198EA663002667FA /* ExperimentViewController.m in Sources */,
+				5E1C74D419CFF0DB003E5157 /* DropboxHandling.m in Sources */,
+				5E2A5DED198DF481002667FA /* AppDelegate.m in Sources */,
+				80CF801623BAA8D8007C6A83 /* MyDocument.m in Sources */,
+				5EFCC1101992BB920053EE08 /* SavedLogsLister.m in Sources */,
+				5E2A5DE9198DF481002667FA /* main.m in Sources */,
+				5EFCC1131992C83C0053EE08 /* ConfigurationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2A5DF6198DF481002667FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2A5E08198DF481002667FA /* SNAPStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E2A5E00198DF481002667FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E2A5DD8198DF481002667FA /* SNAPStudy */;
+			targetProxy = 5E2A5DFF198DF481002667FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E2A5DE5198DF481002667FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2A5DE6198DF481002667FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E2A5DEE198DF481002667FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2A5DEF198DF481002667FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E2A5E04198DF481002667FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2A5E05198DF481002667FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2A5E09198DF481002667FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5E2A5E0A198DF481002667FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E2A5E0C198DF481002667FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SNAPStudy/SNAPStudy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HGHZL2K7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNAPStudy/SNAPStudy-Prefix.pch";
+				INFOPLIST_FILE = "SNAPStudy/SNAPStudy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcw.bme.SNAPStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E2A5E0D198DF481002667FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SNAPStudy/SNAPStudy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HGHZL2K7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNAPStudy/SNAPStudy-Prefix.pch";
+				INFOPLIST_FILE = "SNAPStudy/SNAPStudy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcw.bme.SNAPStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E2A5E0F198DF481002667FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNAPStudy.app/SNAPStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNAPStudy/SNAPStudy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNAPStudyTests/SNAPStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E2A5E10198DF481002667FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNAPStudy.app/SNAPStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNAPStudy/SNAPStudy-Prefix.pch";
+				INFOPLIST_FILE = "SNAPStudyTests/SNAPStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2A5DD4198DF481002667FA /* Build configuration list for PBXProject "SNAPStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2A5E09198DF481002667FA /* Debug */,
+				5E2A5E0A198DF481002667FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2A5E0B198DF481002667FA /* Build configuration list for PBXNativeTarget "SNAPStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2A5E0C198DF481002667FA /* Debug */,
+				5E2A5E0D198DF481002667FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2A5E0E198DF481002667FA /* Build configuration list for PBXNativeTarget "SNAPStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2A5E0F198DF481002667FA /* Debug */,
+				5E2A5E10198DF481002667FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2A5DD1198DF481002667FA /* Project object */;
+}

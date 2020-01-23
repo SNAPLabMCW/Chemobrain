@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3D15621-2EBF-4535-A371-1A774C5E7067</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SNAPStudy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BED9D990C1AF1D83D30F794D81BEE44AE9AFCDB3</key>
+		<string>ssh://pakl.net/code/SNAPStudy</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SNAPStudy/SNAPStudy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BED9D990C1AF1D83D30F794D81BEE44AE9AFCDB3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://pakl.net/code/SNAPStudy</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BED9D990C1AF1D83D30F794D81BEE44AE9AFCDB3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BED9D990C1AF1D83D30F794D81BEE44AE9AFCDB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SNAPStudy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
